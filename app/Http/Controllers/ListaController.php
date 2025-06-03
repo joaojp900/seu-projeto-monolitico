@@ -30,7 +30,7 @@ class ListaController extends Controller
     {
          $validated = $request->validate([
         'titulo' => 'required|string|max:255',
-        'descricao' => 'nullable|string',
+        'descricao' => 'nullable|string|Max:255',
         'status' => 'required|in:pendente,concluida',
     ]);
 

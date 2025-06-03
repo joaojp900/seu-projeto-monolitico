@@ -22,9 +22,9 @@ import Status from '@/components/Status.vue';
                 <div
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg"
                 >
- <!--Componente--><Status :filtroAtivo="filtroStatus" @filtroSelecionado="filtrarTarefas"></Status>
+ <!--Componente--> 
                     <div class="p-6 text-gray-900">
-<!--Formulario-Componente-->   <Tabelalista></Tabelalista>
+<!--Formulario-Componente--> <Tabelalista :tarefas="lista" :filtro="filtroSelecionado"></Tabelalista>
                     </div>
                 </div>
             </div>
