@@ -31,6 +31,7 @@ Route::middleware('auth')->group(function () {
 
 //Rotas To-do-list
 Route::resource('/lista', ListaController::class);
+Route::post('/lista/{id}/restaurar',[ListaController::class, 'restaurar']);
 
 
 require __DIR__.'/auth.php';

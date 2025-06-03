@@ -8,12 +8,15 @@ use Illuminate\Http\Request;
 
 class ListaController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+   public function __construct(TarefaRepository $tarefaRepo)
+    {
+        $this->tarefaRepo = $tarefaRepo;
+    }
+
     public function index(Request $request)
     {
-     return Lista::withTrashed()->get();
+        $lista = $this->tarefaRepo->listar($request->status);
+        return response()->json($lista);
 
     }
 
@@ -25,9 +28,7 @@ class ListaController extends Controller
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
+    
     public function store(Request $request)
     {
          $validated = $request->validate([
