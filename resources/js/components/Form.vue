@@ -76,6 +76,7 @@ export default {
         if (!response.ok) throw new Error('Falha ao criar tarefa.');
 
         alert('Tarefa criada com sucesso!');
+        window.location.href = '/dashboard';
         this.form.titulo = '';
         this.form.descricao = '';
         this.form.status = 'pendente';

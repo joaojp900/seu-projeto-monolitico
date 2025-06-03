@@ -2,7 +2,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
 import Tabelalista from '@/components/TabelaLista.vue';
-import Status from '@/components/Status.vue';
 </script>
 
 <template>
@@ -22,7 +21,6 @@ import Status from '@/components/Status.vue';
                 <div
                     class="overflow-hidden bg-white shadow-sm sm:rounded-lg"
                 >
- <!--Componente--> 
                     <div class="p-6 text-gray-900">
 <!--Formulario-Componente--> <Tabelalista :tarefas="lista" :filtro="filtroSelecionado"></Tabelalista>
                     </div>
