@@ -3,7 +3,7 @@
 ````markdown
 # 🧱 Projeto Monolítico Laravel + Vue.js
 
-Este é um projeto fullstack monolítico desenvolvido com **Laravel (backend)** e **Vue.js (frontend)**, estruturado para funcionar em um único repositório e ambiente. A stack foi organizada utilizando o Inertia.js, o que permite a integração entre Vue e Laravel sem necessidade de API REST tradicional.
+Este é um projeto fullstack monolítico desenvolvido com Laravel (backend) e Vue.js (frontend), estruturado para funcionar em um único repositório e ambiente. A stack foi organizada utilizando o Inertia.js, o que permite a integração entre Vue e Laravel sem necessidade de API REST tradicional.
 
 ---
 
@@ -182,6 +182,6 @@ Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE.md` para mais
 
 ---
 
-```
+ 
  
  
