@@ -1,12 +1,7 @@
-
- 
-
----
-
 ````markdown
 # 🧱 Projeto Fullstack Monolítico: Laravel + Vue.js + Inertia.js
 
-Este é um projeto fullstack monolítico que integra **Laravel** (backend) com **Vue.js 3** (frontend) via **Inertia.js**, operando em um único repositório e ambiente de execução. A arquitetura elimina a necessidade de uma API REST tradicional, proporcionando uma experiência moderna de SPA com renderização lado servidor.
+Este é um projeto fullstack monolítico que integra Laravel (backend) com Vue.js 3(frontend)  
 
 ---
 
