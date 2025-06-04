@@ -1,4 +1,3 @@
-Perfeito. Abaixo está um `README.md` completo, detalhado e didático, ideal para quem vai rodar o projeto pela primeira vez — mesmo que seja leigo. Ele cobre todos os pontos essenciais de um **monolito Laravel com Vue**, incluindo dependências, instalação, build front-end, geração da chave, rodar servidor, etc.
 
 ---
 
