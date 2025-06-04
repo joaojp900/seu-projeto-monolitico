@@ -1,5 +1,4 @@
-
----
+ 
 
 ````markdown
 # 🧱 Projeto Monolítico Laravel + Vue.js
@@ -171,7 +170,9 @@ php artisan test
 
 ---
 
- 
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Basta fazer um fork e abrir um pull request.
 
 ---
 
@@ -181,3 +182,6 @@ Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE.md` para mais
 
 ---
 
+```
+ 
+ 
