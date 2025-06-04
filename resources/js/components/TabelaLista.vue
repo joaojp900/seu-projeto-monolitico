@@ -14,7 +14,6 @@
       <thead class="bg-gray-100">
         <tr>
           <th class="text-left px-4 py-2">Título</th>
-          <th class="text-left px-4 py-2">Descrição</th>
           <th class="text-left px-4 py-2">Status</th>
           <th class="text-left px-4 py-2">Data de Criação</th>
           <th class="text-left px-4 py-2">Ações</th>
@@ -26,10 +25,7 @@
             <input v-if="tarefa.editando" v-model="tarefa.titulo" class="border px-2 py-1 w-full" />
             <span v-else>{{ tarefa.titulo }}</span>
           </td>
-          <td class="px-4 py-2">
-            <textarea v-if="tarefa.editando" v-model="tarefa.descricao" class="border px-2 py-1 w-full"></textarea>
-            <span v-else>{{ tarefa.descricao || '-' }}</span>
-          </td>
+
           <td class="px-4 py-2">
             <select v-if="tarefa.editando" v-model="tarefa.status" class="border px-2 py-1">
               <option value="pendente">Pendente</option>
@@ -121,6 +117,7 @@ export default {
 
         this.lista = this.lista.filter(t => t.id !== id);
         alert('Tarefa excluída com sucesso!');
+          window.location.href = '/dashboard';
       } catch (error) {
         alert(error.message);
       }
